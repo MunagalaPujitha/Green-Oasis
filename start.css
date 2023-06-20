@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first{
+    text-align: center;
+    position: relative;
+
+}
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(6, 241, 45);
+}
+
+h2{
+    font-size: 35px;
+    font-weight: bolder;
+    position: absolute;
+    color: rgb(20, 21, 21);
+    left: 300px;
+    top: 170px;
+} 
+p{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+} 
+button{
+    position: absolute;
+    color: green;
+    font-size: 20px;
+    background-color:white;
+    border-radius: 15px;
+    left: 350px;
+    top: 500px;
+    border: none;
+} 
+button:hover{
+    background-color: black;
+    color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
